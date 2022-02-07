@@ -5,7 +5,7 @@ An app that generates a parser and a lexer by an input grammar
 
 The input grammar must be LL(1) and consist of three blocks: 
 
-In the first block we declare all non-terminals and tokens together with their attributes and necessary imports, with the help of this block the program will generate the necessary classes for non-terminals and tokens. In the attributes and imports sections, you can write Java code thinking of nonterminals and tokens as classes. The token identifier must be a sequence of latin characters in upper case, the nonterminal identifier must be a sequence of latin characters in lower case. Each line must start with "decl" and end with a semicolon.
+In the first block we declare all non-terminals and tokens together with their attributes and necessary imports, with the help of this block the program will generate the necessary classes for nonterminals and tokens. In the attributes and imports sections, you can write Java code thinking of nonterminals and tokens as classes. The token identifier must be a sequence of latin characters in upper case, the nonterminal identifier must be a sequence of latin characters in lower case. Each line must start with "decl" and end with a semicolon.
 
 Example:
 ```
